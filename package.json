@@ -1,0 +1,27 @@
+{
+  "name": "flood-monitoring-system",
+  "version": "1.0.0",
+  "description": "AI-Powered Smart Flood Monitoring & Early Warning System",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run dev --workspace=frontend & npm run dev --workspace=backend",
+    "build": "npm run build --workspace=frontend && npm run build --workspace=backend",
+    "start": "npm start --workspace=backend",
+    "preview": "npm run preview --workspace=frontend"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "keywords": [
+    "flood",
+    "monitoring",
+    "IoT",
+    "AI",
+    "prediction",
+    "disaster",
+    "management"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
