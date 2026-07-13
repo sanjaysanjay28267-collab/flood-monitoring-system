@@ -243,7 +243,7 @@ npm run build
 npm run preview
 ```
 
-## 📡 ESP32 Integration
+## 💡 ESP32 Integration
 
 To integrate ESP32 IoT sensors:
 
@@ -271,7 +271,7 @@ Example ESP32 payload:
 ## 📚 Documentation
 
 - [API Documentation](./docs/API_DOCUMENTATION.md)
-- [Setup Guide](./docs/SETUP_GUIDE.md)
+- [Setup Guide](./SETUP_GUIDE.md)
 - [Deployment Guide](./docs/DEPLOYMENT_GUIDE.md)
 - [ESP32 Integration](./docs/ESP32_INTEGRATION.md)
 
@@ -346,7 +346,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For support, email support@floodmonitoring.com or open an issue on GitHub.
 
-## 🎯 Roadmap
+## 🛣️ Roadmap
 
 - [ ] Mobile app (React Native)
 - [ ] Advanced AI predictions (LSTM models)
