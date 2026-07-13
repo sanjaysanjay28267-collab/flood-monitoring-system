@@ -1,0 +1,43 @@
+# Backend - Node.js + Express + MongoDB + TypeScript
+
+{
+  "name": "flood-monitoring-backend",
+  "version": "1.0.0",
+  "description": "Backend API for flood monitoring system",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node-esm src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "lint": "eslint src --ext .ts",
+    "seed": "ts-node-esm src/utils/seed.ts"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "socket.io": "^4.7.0",
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "express-validator": "^7.0.0",
+    "jsonwebtoken": "^9.1.0",
+    "bcryptjs": "^2.4.3",
+    "firebase-admin": "^11.11.0",
+    "twilio": "^3.84.0",
+    "nodemailer": "^6.9.5",
+    "mqtt": "^5.0.5",
+    "express-async-errors": "^3.1.1",
+    "pdfkit": "^0.13.0",
+    "excel4node": "^1.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "@types/express": "^4.17.20",
+    "@types/cors": "^2.8.14",
+    "typescript": "^5.2.0",
+    "ts-node": "^10.9.1",
+    "eslint": "^8.48.0"
+  }
+}
